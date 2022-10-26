@@ -10,8 +10,8 @@
 }
 .slider .slide-track {
     display: flex;
-    animation: scroll 30s linear infinite;
-    -webkit-animation: scroll 30s linear infinite;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
     width: calc(200px * 14);
 	align-items: center;
 }
@@ -22,8 +22,9 @@
 }
 
 .slider .slide img {
-    width: 100%;
+    max-width: 150px;
 	margin-right: 2rem;
+    max-height: 150px;
 }
 
 @keyframes scroll {
@@ -37,19 +38,37 @@
     }
 }
 
+.apple{
+    width: 90px;
+}
+
+.dell{
+    width: 120px;
+}
+
 @media (max-width:600px){
     .slider{
         width: 90%;
-        max-height: 120px;
+        max-height: 100px;
     }
 
     .slider .slide{
         max-width: 100px;
+        margin-right: 1rem;
     }
 
     .slider .slide img{
-        max-width: 100px;
-        margin-right: 0;
+        max-width: 90px;
+        
+        
     }
     
+    .apple{
+        width: 50px;
+        
+    }
+
+    .dell{
+        width: 60px;
+    }
 }
