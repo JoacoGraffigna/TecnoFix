@@ -85,12 +85,12 @@ header h1{
 
 .redes a:hover{
    opacity: 0.4;
- }
- 
- 
+}
 
-@media (max-width:600px){
 
+
+@media (max-width:600px) {
+   
    header h1{
       font-size : 25px;
    }
@@ -101,23 +101,29 @@ header h1{
    }
 
    .carousel-inner img{
-      height: 280px;
-      margin-top: 4rem;
+      max-height: 280px;
+    
    }
 
+   .carousel-inner{
+      max-height: 600px;
+      margin-top: 2rem;
+      border-radius: 5px;
+      border-radius: 5px;
+      border-bottom: 2px white solid;
+      border-top: 2px white solid;
+   
+   }
+   
+   .carousel-inner img{
+      max-height: 600px;
+   }
+   
+   
    
 }
+
+
  
 
-
-.carousel-inner{
-   max-height: 600px;
-   border-radius: 5px;
-}
-
-.carousel-inner img{
-   max-height: 600px;
-   border-bottom: 2px white solid;
-   border-top: 2px white solid;
-}
 
