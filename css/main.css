@@ -10,6 +10,7 @@ header{
    justify-content: center;
    display: flex;
    margin-top: 0;
+   z-index: 1000;
 
 }
 
@@ -88,6 +89,8 @@ header h1{
  
  
 
+ 
+
 @media (max-width:600px){
 
    header h1{
@@ -98,5 +101,41 @@ header h1{
       width: 80px;
       height: 80px;
    }
+
+   .carousel-inner img{
+      height: 280px;
+   }
+
 }
  
+
+
+.carousel-inner{
+   max-height: 600px;
+   margin-top: 2rem;
+   border-radius: 5px;
+   
+}
+
+.carousel-inner img{
+   max-height: 600px;
+}
+
+.carousel-control-prev-icon {
+   display: block;
+   background-color: black;
+   border-radius: 10px 0 0 10px;
+   padding: .5rem;
+   background-clip: padding-box;
+ }
+ 
+
+ 
+ .carousel-control-next-icon {
+   display: block;
+   background-color: black;
+   border-radius: 0 10px 10px 0;
+   padding: .5rem;
+   opacity: 1;
+  
+ }
