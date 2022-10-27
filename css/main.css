@@ -10,6 +10,7 @@ header{
    justify-content: center;
    display: flex;
    margin-top: 0;
+   z-index: 1000;
 
 }
 
@@ -98,5 +99,25 @@ header h1{
       width: 80px;
       height: 80px;
    }
+
+   .carousel-inner img{
+      height: 280px;
+      margin-top: 4rem;
+   }
+
+   
 }
  
+
+
+.carousel-inner{
+   max-height: 600px;
+   border-radius: 5px;
+}
+
+.carousel-inner img{
+   max-height: 600px;
+   border-bottom: 2px white solid;
+   border-top: 2px white solid;
+}
+
