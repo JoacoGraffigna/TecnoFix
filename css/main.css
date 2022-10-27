@@ -85,14 +85,12 @@ header h1{
 
 .redes a:hover{
    opacity: 0.4;
- }
- 
- 
+}
 
- 
 
-@media (max-width:600px){
 
+@media (max-height:600px) {
+   
    header h1{
       font-size : 25px;
    }
@@ -108,9 +106,9 @@ header h1{
 
 
       margin-top: 4rem;
-   }
-
 }
+
+
  
 
 
@@ -136,8 +134,10 @@ header h1{
    border-radius: 10px 0 0 10px;
    padding: .5rem;
    background-clip: padding-box;
- }
- 
+}
+
+
+
 
  
  .carousel-control-next-icon {
@@ -147,9 +147,7 @@ header h1{
    padding: .5rem;
    opacity: 1;
   
- }
-
-   border-bottom: 2px white solid;
-   border-top: 2px white solid;
 }
+
+
 
