@@ -17,7 +17,7 @@ header{
 
 body{
    background-image: url("/fondo.jpg");
-   background-repeat: no-repeat;
+
    
    
 }
@@ -111,12 +111,12 @@ header h1{
 
 
 .carousel-inner{
-   max-height: 600px;
+   max-height: 900px;
    border-radius: 5px;
 }
 
 .carousel-inner img{
-   max-height: 600px;
+   max-height: 900px;
    border-bottom: 2px white solid;
    border-top: 2px white solid;
 }
