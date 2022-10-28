@@ -51,14 +51,14 @@ header h1{
    justify-content: center;
    text-align: center;
    height: 200px;
-   border-radius: 9px;
+   border-radius: 5px;
 }
 
 
-.redes h2{
-   margin-top: 1rem;
+.redes h1{
+   margin-top: 2rem;
    font-family: 'Noto Serif JP', serif;
-   font-size: 20px;
+   font-size: 30px;
    margin-bottom: 3rem;
 
 }
@@ -105,7 +105,18 @@ header h1{
       margin-top: 4rem;
    }
 
-   
+   .redes h1{
+      font-size: 17px;
+      font-weight: 800;
+   }
+
+  .redes{
+   margin-top: 4rem;
+   width: 90%;
+   max-height: 130px;
+  }
+
+  
 }
  
 
@@ -135,5 +146,3 @@ header h1{
    padding: .5rem;
    
  }
- 
- 
