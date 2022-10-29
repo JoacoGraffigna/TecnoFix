@@ -224,6 +224,7 @@ header h1{
       margin: auto;
       border: 1px white solid;
       margin-top: 1rem;
+      border-radius: 10px;
    }
    
  }
