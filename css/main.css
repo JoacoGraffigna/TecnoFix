@@ -57,9 +57,7 @@ header h1{
 
 .redes h1{
    margin-top: 2rem;
-  
    font-size: 30px;
-   font-weight: 400;
 
 }
 
@@ -148,6 +146,7 @@ header h1{
    .redes h1{
       font-size: 17px;
       font-weight: 800;
+      font-family: 'Noto Serif JP', serif;
    }
 
   .redes{
