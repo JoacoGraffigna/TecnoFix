@@ -8,6 +8,7 @@ header{
    font-family: 'Noto Serif JP', serif;
    align-items: center;
    justify-content: center;
+   text-align: center;
    display: flex;
    margin-top: 0;
    z-index: 1000;
@@ -25,6 +26,7 @@ body{
 .relleno{
    width: 100%;
    height: 4rem;
+
 }
 
 header img{
@@ -84,14 +86,41 @@ header h1{
 
 .redes a:hover{
    opacity: 0.4;
+}
+
+
+
+.soporte{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   height: 55px;
+   max-height: 55px;
+   background-color:#080808;
+   border-bottom: 2px white solid;
  }
  
+ .soporte h3{
+   margin-top: 8px;
+   color: white;
+   font-weight: 100;
+   font-size: 25px;
+ }
+
+
  
 
 @media (max-width:600px){
 
+   header{
+      display: flex;
+
+   }
+ 
    header h1{
       font-size : 25px;
+      margin-left: 5rem;
    }
 
    header img{
@@ -101,7 +130,7 @@ header h1{
 
    .carousel-inner img{
       height: 280px;
-      margin-top: 4rem;
+      margin-top: 2rem;
    }
 
    .redes h1{
@@ -115,7 +144,16 @@ header h1{
    max-height: 130px;
   }
 
-  
+  .soporte{
+   height: 45px;
+   max-height: 45px;
+}
+
+.soporte h3{
+   font-size: 18px;
+
+   
+}
 }
  
 
@@ -145,3 +183,4 @@ header h1{
    padding: .5rem;
    
  }
+
