@@ -217,7 +217,7 @@ header h1{
    
  }
 
- @media (max-width:1366px) {
+ @media (min-width:1366px) {
    .carousel-inner img{
       max-width: 90%;
       max-height: 600px;
