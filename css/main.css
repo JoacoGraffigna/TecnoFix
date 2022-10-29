@@ -218,3 +218,10 @@ header h1{
    
  }
 
+ @media (max-width:1366px) {
+   .carousel-inner img{
+      max-height: 600px;
+   }
+   
+ }
+
