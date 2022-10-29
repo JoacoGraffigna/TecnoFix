@@ -57,13 +57,14 @@ header h1{
 
 .redes h1{
    margin-top: 2rem;
-   font-family: 'Noto Serif JP', serif;
+  
    font-size: 30px;
+   font-weight: 400;
 
 }
 
 .redes h5{
-   font-family:'Noto Serif JP', serif; ;
+  
    margin-top: 0%;
    font-size: 25px;
    font-weight: 400;
