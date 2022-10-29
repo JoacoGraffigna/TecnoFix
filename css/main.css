@@ -221,6 +221,9 @@ header h1{
    .carousel-inner img{
       max-width: 90%;
       max-height: 600px;
+      margin: auto;
+      border: 1px white solid;
+      margin-top: 1rem;
    }
    
  }
