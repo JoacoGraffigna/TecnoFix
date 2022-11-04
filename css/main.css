@@ -16,7 +16,7 @@ header{
 
 
 body{
-   background-image: url("/fondo.jpg");
+   background-image: url("/body.fondo/fondo.jpg");
    
    
    
@@ -112,6 +112,20 @@ header h1{
    color: white;
    font-weight: 100;
    font-size: 25px;
+   
+ }
+
+ .ubi{
+   margin-left: 550px;
+ }
+
+ .soporte h3 img{
+   margin-left: 0;
+ }
+
+ .soporte img{
+   max-width: 20px;
+   margin-left: 0px;
  }
 
 
@@ -155,9 +169,21 @@ header h1{
    max-height: 130px;
   }
 
+  .soporte img{
+   max-width: 20px;
+  }
+
+  .ubi{
+   margin-left: 60px;
+ }
+
   .soporte{
    height: 45px;
    max-height: 45px;
+
+   
+
+  
 }
 
 .soporte h3{
