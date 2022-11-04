@@ -119,13 +119,10 @@ header h1{
    margin-left: 550px;
  }
 
- .soporte h3 img{
-   margin-left: 0;
- }
 
  .soporte img{
    max-width: 20px;
-   margin-left: 0px;
+   margin-left: 5px;
  }
 
 
